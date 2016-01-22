@@ -58,7 +58,7 @@ public class QOP extends Problem {
 		solution.costo = this.costoTotalCanales2(solution);
 		// Fitness de la Solución
 		solution.fitness_ = 1 / solution.costo;
-		solution.setObjective(0, solution.fitness_);
+		solution.setObjective(0, solution.costo);
 		
 
 		//return this.fitness;
